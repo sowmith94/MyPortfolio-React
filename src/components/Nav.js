@@ -65,7 +65,19 @@ function Nav() {
             >
               Projects
             </Link>
-          </li>
+            </li>
+            <li className="nav-links">
+            <Link
+              activeClass="active"
+              to="Skills"
+              spy={true}
+              smooth={true}
+              offset={-150}
+              duration={1000}
+            >
+              Skills
+            </Link>
+            </li>
         </ul>
       </nav>
     </div>
