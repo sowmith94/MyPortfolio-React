@@ -141,6 +141,11 @@ html, body, .App {
   .NavbarItems {
     position: relative;
   }
+
+  /* *** Projects section *** */
+  .projects-section{
+    flex-wrap: wrap;
+  }
 }
 
 /* ****** About Page ***** */
@@ -149,6 +154,7 @@ html, body, .App {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   padding-top: 96px;
   padding-bottom: 66px;
   background-color: #2B2B2B;
@@ -191,8 +197,21 @@ html, body, .App {
 
 /**** Projects page ****/
 .projects-section {
-  height: 100vh;
-  border: solid #333 0.5rem;
+  padding-top:80px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.project-box{
+  border: #444 solid 3px;
+  background-color: rgb(241, 237, 237);
+  border-radius: 4px;
+  padding: 10px 10px;
+  box-shadow: 3px 3px lightgrey;
+  margin: 15px 10px;
+  flex:1 0 21%;
 }
 
 /*** Banner page ****/
