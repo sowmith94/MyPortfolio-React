@@ -8,14 +8,19 @@ function App() {
   const personalInfo={
     fullname: 'Marium Ali',
     occupation: 'Student',
-    Skills: ['html','css','reactjs','c++','javascript']
+    Skills: ['html','css','reactjs','c++','javascript'],
+    facebook: 'https://www.facebook.com',
+    linkedin:'https://www.linkedin.com',
+    github: 'https://www.github.com',
+    address: 'H No: 123, Some Street, Hyderabad, TS, India',
+    email: 'someone@something.com'
   }
 
   return (
     <div className="App">
       <Nav />
-      <Banner fullname={personalInfo.fullname} />
-      <About />
+      <Banner personalInfo={personalInfo} />
+      <About personalInfo={personalInfo}/>
       <Projects />
     </div>
   );

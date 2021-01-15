@@ -144,10 +144,50 @@ html, body, .App {
 }
 
 /* ****** About Page ***** */
-/* .about-section {
-  height: 100vh;
-  border: solid #333 0.5rem;
-} */
+.about-section {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  background-color: #2B2B2B;
+  color: white;
+}
+
+.profile-picture{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.info{
+  padding-left: 40px;
+  text-align: left;
+
+}
+
+.info p{
+  color: rgb(190, 186, 186);
+}
+
+.download-button{
+  margin-top: 6px;
+  padding: 15px 15px;
+  background: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 300px;
+  font: 24px 'opensans-bold', sans-serif;
+  border-radius: 3px;
+}
+
+.download-button:hover{
+  background-color: white;
+  color: black;
+}
 
 /**** Projects page ****/
 .projects-section {
@@ -185,6 +225,13 @@ html, body, .App {
   margin: 0;
 }
 
+.banner-info i{
+  color: white;
+  font-size: 40px;
+  padding: 20px 15px;
+  /* margin: 20px 20px; */
+  margin-top: 10px;
+}
 
 
 
