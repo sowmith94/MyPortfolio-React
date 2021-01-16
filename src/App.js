@@ -9,7 +9,28 @@ function App() {
   const personalInfo={
     fullname: 'Marium Ali',
     occupation: 'Student',
-    Skills: ['html','css','reactjs','c++','javascript'],
+    skillList: [
+      {
+      name: 'html',
+      level: 80
+      },
+      {
+        name: 'css',
+        level: 75,
+      },
+      {
+        name:'reactjs',
+        level: 70,
+      },
+      {
+        name:'c++',
+        level: 60
+      },
+      {
+        name:'javascript',
+        level: 75
+      }
+    ],
     facebook: 'https://www.facebook.com',
     linkedin:'https://www.linkedin.com',
     github: 'https://www.github.com',
@@ -46,7 +67,7 @@ function App() {
       <Banner personalInfo={personalInfo} />
       <About personalInfo={personalInfo}/>
       <Projects projectList={projectList}/>
-      <Skills />
+      <Skills personalInfo={personalInfo}/>
       <p></p>
     </div>
   );

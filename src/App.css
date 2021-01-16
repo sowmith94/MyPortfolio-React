@@ -259,5 +259,45 @@ html, body, .App {
   margin-top: 10px;
 }
 
+/* *** Skills *** */
 
+.skills-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.progress-bar{
+  position:relative;
+  height: 40px;
+  width: 500px;
+  border-radius: 50px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+}
+
+.filler{
+  background: #030b16;
+  height: 100%;
+  border-radius: inherit;
+  margin-bottom: 20px;
+}
+
+/* .skill-progress{
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-evenly;
+} */
+
+.skill-progress em{
+    font: 20px 'opensans-bold', sans-serif;
+    color: #313131;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    position: relative;
+    /* top: -36px; */
+}
 
