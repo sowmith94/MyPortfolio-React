@@ -221,6 +221,11 @@ html, body, .App {
   flex:1 0 21%;
 }
 
+.project-box:hover{
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
 /*** Banner page ****/
 .banner-section{
   min-width: 100%; 
@@ -301,3 +306,18 @@ html, body, .App {
     /* top: -36px; */
 }
 
+/* *** Footer *** */
+.footer-section{
+  background-color: #313131;
+  color: rgb(138, 138, 138);
+  /* height: 50px; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer-section i{
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+  /* margin-top: 10px; */
+}
