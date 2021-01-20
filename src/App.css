@@ -199,7 +199,7 @@ html, body, .App {
 /**** Projects page ****/
 .projects-page{
   padding-top:50px;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 .projects-page hr{
   width: 300px;
@@ -271,6 +271,7 @@ html, body, .App {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding-bottom: 30px;
 }
 
 .progress-bar{
@@ -303,14 +304,12 @@ html, body, .App {
     letter-spacing: 2px;
     font-weight: bold;
     position: relative;
-    /* top: -36px; */
 }
 
 /* *** Footer *** */
 .footer-section{
   background-color: #313131;
   color: rgb(138, 138, 138);
-  /* height: 50px; */
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -319,5 +318,4 @@ html, body, .App {
   color: white;
   font-size: 20px;
   padding-left: 20px;
-  /* margin-top: 10px; */
 }
